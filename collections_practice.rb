@@ -53,6 +53,8 @@ def add_s(array)
     if index != 1 
       element << "s"
     else 
-      
+      element
+    end
+  end
 
 

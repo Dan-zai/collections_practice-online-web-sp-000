@@ -14,6 +14,9 @@ end
 
 def sort_array_char_count(array)
   array.sort_by  {|x| x.length}
+  
+  #array.sort{|a, b| a.length <=> b.length} if only using the sort operator
+
 end 
 
 
